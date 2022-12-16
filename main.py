@@ -116,6 +116,8 @@ d = ImageDraw.Draw(output_image)
 one_char_width = 8
 one_char_height = 18
 
+ascii_znakovi.reverse()
+
 for i in range(new_height_txt):
     for j in range(new_width_txt):
         if ime_slike.endswith(".jpg") or ime_slike.endswith(".jpeg"):
